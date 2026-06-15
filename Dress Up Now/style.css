@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wdth,wght@62.5..100,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" width;
+    
+    
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: white;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-radius: 20px;
+    
+}
+
+nav {
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    margin: 0 1.5rem;
+}
+
+li a {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 1rem 0;
+}
+
+
+    
+
+
+h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex>* {
+    margin: 3px;
+    flex: 1;
+}
+
+section.header {
+    width: 100%;
+    height: 60vh;
+    background-image: url('img/image4\'.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+section.footer p {
+    text-align: center;
+    padding: 1rem;
+}
+.footer{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3.5rem;
+    padding: 2px;
+    background-color: rgb(40, 36, 44);
+    display: static;
+}

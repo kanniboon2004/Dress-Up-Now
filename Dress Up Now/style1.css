@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wdth,wght@62.5..100,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" width;
+}
+
+.carousel-item{
+    height: 500px;
+    
+}
+
+.carousel-image-1{
+    background-image: url('img/product10.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url('img/product11.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url('img/product12.jpg');
+    background-size: cover;
+}
+
+section.footer p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+section {
+    padding: 1rem 0;
+}
+
+.custom-text {
+    color: rgb(253, 253, 253); 
+}
+.footer{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3.5rem;
+    padding: 2px;
+    background-color: rgb(40, 36, 44);
+    display: static;
+}
