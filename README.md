@@ -1,2 +1,2 @@
-# Dress-Up-Now_
+# Dress-Up-Now
 Clothing store project
